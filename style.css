@@ -1,4 +1,37 @@
-body {background-color:tan;}
-h1{color:green;}
+.container {
+	width: 500px;
+	color: black;
+  	top: 50%;
+  	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 25px;
+  	border-radius: 20px;
+	position: fixed;
+}
 
+body {
+	background-color: black; 
+	font-family: arial;
+	color: white;
+}
 
+h1 {
+	font-family: verdana;
+	color: gray; 
+}
+
+td {
+  text-align: left;
+  padding: 5px;
+}
+
+.rate {
+  width: 55px;	
+  display: inline-block;
+}
+
+table { 
+    margin-right: auto;
+    margin-left: auto;
+}
